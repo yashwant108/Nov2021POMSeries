@@ -18,7 +18,7 @@ import io.qameta.allure.Story;
 @Story("US  -101:Login Page features")
 @Listeners({AnnotationTransformer.class,TestAllureListener.class})
 public class LoginPageTest  extends BaseTest{
-
+//After 1 st commit will check
 	@Description("TC01:Login Page title test")
 	@Severity(SeverityLevel.MINOR)
 	@Test
